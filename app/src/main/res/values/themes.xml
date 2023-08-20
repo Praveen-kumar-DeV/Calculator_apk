@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Calculator" parent="android:Theme.Material.Light.NoActionBar" />
+    
+    <style name="operatorButton" parent="commonButton">
+        <item name="android:textColor">@color/btnBackground2</item>
+    </style>
+    
+    
+    <style name="digitButton" parent="commonButton">
+
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="commonButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="cornerRadius">36sp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
